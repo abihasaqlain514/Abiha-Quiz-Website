@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="script1.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-inverse " style="margin: 0;padding: 0;" >
+    <div class="container-fluid" style="background-color:lightseagreen;" >
+      <div class="navbar-header" >
+        <a class="navbar-brand" href="#"><h1 style="color: white; font-weight: bolder;margin-left: 40px;margin-bottom:40px;margin-top:10px ;font-size:  45px;">Quiz Quest</h1></a>
+      </div>
+      <ul class="nav navbar-nav" style="color:white ; margin-left: 200px;margin-top: 10px;">
+        <li ><a href="index.html"><h4 style="color: white;font-weight: bold;font-size: 20px;">Home</h4></a></li>
+        <li   class="active"><a href="quiz.html"><h4 style="color: white;font-weight: bold;font-size: 20px;">Quiz</h4 ></a></li>
+        <li><a href="about.html"><h4 style="color: white;font-weight: bold;font-size: 20px;">About Us</h4></a></li>
+        <li ><a href="contact.html"><h4 style="color: white;font-weight: bold;font-size: 20px;">Conatct Us</h4></a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="signup.html"><span class="glyphicon glyphicon-user" style="color: antiquewhite;"></span><h4 style="color: white;font-weight: bold;font-size: 20px;"> Sign Up</h4></a></li>
+        <li><a href="login.html"><span class="glyphicon glyphicon-log-in" style="color: antiquewhite;"></span><h4 style="color: white;font-weight: bold;font-size: 20px;">Login</h4></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container quizcontainer" style="margin-left: 90px;">
+    <a href="quiz.html">
+    <h2 style="color: darkblue; font-weight: bolder;font-size: 50px;margin-bottom: 50px;">General Knowledge Quiz</h2>
+    <form id="quizForm4" style="margin-left: 150px;">
+
+        <div class="question-container">
+            <!-- Question 1 -->
+            <div class="question">
+                <p style="font-size: 25px;color: black;font-weight: bolder;">1. Who wrote the play "Romeo and Juliet"?</p>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q1" value="a">  William Shakespeare</label><br>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q1" value="b">  Charles Dickens</label><br>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q1" value="c">  Mark Twain</label><br>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q1" value="d">  Jane Austen</label><br>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="question">
+                <p style="font-size: 25px;color: black;font-weight: bolder;">2. What is the capital of France?</p>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q2" value="a">  Berlin</label><br>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q2" value="b">  Madrid</label><br>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q2" value="c">  Paris</label><br>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q2" value="d">  Rome</label><br>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="question">
+                <p style="font-size: 25px;color: black;font-weight: bolder;">3. What is the largest planet in our solar system?</p>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q3" value="a">  Earth</label><br>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q3" value="b">  Mars</label><br>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q3" value="c">  Jupiter</label><br>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q3" value="d">  Saturn</label><br>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="question">
+                <p style="font-size: 25px;color: black;font-weight: bolder;">4. Who painted the Mona Lisa?</p>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q4" value="a">  Vincent van Gogh</label><br>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q4" value="b">  Leonardo da Vinci</label><br>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q4" value="c">  Pablo Picasso</label><br>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q4" value="d">  Claude Monet</label><br>
+            </div>
+
+            <!-- Question 5 -->
+            <div class="question">
+                <p style="font-size: 25px;color: black;font-weight: bolder;">5. What is the hardest natural substance on Earth?</p>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q5" value="a">  Gold</label><br>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q5" value="b">  Iron</label><br>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q5" value="c">  Diamond</label><br>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q5" value="d">  Platinum</label><br>
+            </div>
+
+            <!-- Question 6 -->
+            <div class="question">
+                <p style="font-size: 25px;color: black;font-weight: bolder;">6. What is the chemical symbol for water?</p>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q6" value="a">  H2O</label><br>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q6" value="b">  CO2</label><br>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q6" value="c">  O2</label><br>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q6" value="d">  NaCl</label><br>
+            </div>
+
+            <!-- Question 7 -->
+            <div class="question">
+                <p style="font-size: 25px;color: black;font-weight: bolder;">7. Who is known as the "Father of Computers"?</p>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q7" value="a">  Alan Turing</label><br>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q7" value="b">  Charles Babbage</label><br>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q7" value="c">  Ada Lovelace</label><br>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q7" value="d">  Bill Gates</label><br>
+            </div>
+
+            <!-- Question 8 -->
+            <div class="question">
+                <p style="font-size: 25px;color: black;font-weight: bolder;">8. What is the smallest prime number?</p>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q8" value="a">  0</label><br>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q8" value="b">  1</label><br>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q8" value="c">  2</label><br>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q8" value="d">  3</label><br>
+            </div>
+
+            <!-- Question 9 -->
+            <div class="question">
+                <p style="font-size: 25px;color: black;font-weight: bolder;">9. What is the largest ocean on Earth?</p>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q9" value="a">  Atlantic Ocean</label><br>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q9" value="b">  Indian Ocean</label><br>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q9" value="c">  Arctic Ocean</label><br>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q9" value="d">  Pacific Ocean</label><br>
+            </div>
+
+            <!-- Question 10 -->
+            <div class="question">
+                <p style="font-size: 25px;color: black;font-weight: bolder;">10. Who discovered penicillin?</p>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q10" value="a">  Marie Curie</label><br>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q10" value="b">  Alexander Fleming</label><br>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q10" value="c">  Louis Pasteur</label><br>
+                <label style="color: darkblue;font-size: 20px;"><input type="radio" name="q10" value="d">  Joseph Lister</label><br>
+            </div>
+        </div>
+
+      <!-- Add your questions here in the same format as the example questions -->
+      <button type="submit" class="btn btn-primary" style="
+        
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: lightseagreen;
+          -webkit-tap-highlight-color: transparent;
+          margin-top: 50px;
+          margin-left: 330px;
+      width: 170px;
+      height: 70px;
+      cursor: pointer;
+      background: lightseagreen;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0px 10px 25px #57aba7, 0px -10px 25px #a6fffa, inset 0px -5px 10px #57aba7, inset 0px 5px 10px #a6fffa;
+      font-family: 'Damion', cursive;
+      color: darkblue;
+      font-weight: bolder;
+      font-size: 30px;
+      transition: 500ms;
+          border: 2px solid #6dd6d1;
+      animation: hueRotation 2s linear infinite;
+  
+  @keyframes hueRotation {
+      to {filter: hue-rotate(360deg);}
+  }
+  
+  button:focus {
+      outline: none;
+  }"> Submit</button>     
+  </form>
+  <div id="result"></div>
+  
+  <a href="quiz.html">
+      <button class="btn btn-primary" onclick="location.href='html_quiz.html'" style=" margin-left: 30px;
+      margin-top: 60px;
+      font-family: 'Open Sans';
+      color: #20bf6b !important;
+      text-transform: uppercase;
+      background: lightblue;
+      padding: 20px;
+      border: 4px solid #20bf6b !important;
+      border-radius: 6px;
+      text-decoration: none;
+      display: inline-block;
+      transition: all 0.3s ease 0s;
+      color: darkolivegreen !important;
+      border-radius: 50px;
+      border-color: #494949 !important;
+      transition: all 0.6s ease 0s;">Go Back</button></a>
+  </div>
+</body>
+</html>
